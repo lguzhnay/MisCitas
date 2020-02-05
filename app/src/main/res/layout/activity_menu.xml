@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_gradient"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="16dp"
+    tools:context=".MenuActivity">
+
+    <TextView
+        android:paddingTop="12dp"
+        android:layout_width="match_parent"
+        android:gravity="center_horizontal"
+        android:layout_height="60dp"
+        android:textColor="@color/white"
+
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+        android:text="@string/label_welcome"/>
+
+    <Button
+        android:id="@+id/btnCrearCitas"
+        android:layout_width="match_parent"
+        android:layout_marginTop="12dp"
+        android:drawableStart="@drawable/ic_add_circle_black_24dp"
+        style="@style/MenuButton"
+        android:text="@string/btn_crear_citas"/>
+
+    <Button
+        android:id="@+id/btnMisCitas"
+        android:layout_width="match_parent"
+        android:layout_marginTop="12dp"
+        android:drawableStart="@drawable/ic_schedule_black_24dp"
+        style="@style/MenuButton"
+        android:text="@string/btn_mis_citas"/>
+
+    <Button
+        android:id="@+id/btnLogout"
+        android:layout_width="match_parent"
+        android:layout_marginTop="12dp"
+        android:drawableStart="@drawable/ic_power_off"
+        style="@style/MenuButton"
+        android:text="@string/btn_log_out"/>
+
+    <TextView
+        android:id="@+id/tvGoToRegister"
+        android:layout_marginTop="16dp"
+        android:textColor="@color/white"
+        android:layout_marginBottom="18dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:text="@string/label_go_to_register"/>
+
+</LinearLayout>
