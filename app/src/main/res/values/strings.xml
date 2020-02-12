@@ -10,7 +10,7 @@
     <string name="btn_register">Confirmar Registro</string>
     <string name="label_go_to_login">¿Ya tiene una cuenta?</string>
     <string name="please_fill_your_register_data">Por favor completa tus datos</string>
-    <string name="btn_crear_citas">Crear citas</string>
+    <string name="btn_crear_citas">Reservar cita</string>
     <string name="btn_mis_citas">Mis citas</string>
     <string name="btn_log_out">Cerrar sesión</string>
     <string name="label_welcome">Bienvenido</string>
@@ -25,7 +25,7 @@
     <string name="btn_next">Siguiente</string>
     <string name="label_doctor">Médico</string>
     <string name="label_scheduled_date">Fecha para la cita</string>
-    <string name="btn_confirm">Confirmar registro</string>
+    <string name="btn_confirm">Confirmar</string>
 
     <string name="date_format">%1$d-%2$s-%3$s</string>
 
@@ -34,4 +34,9 @@
     <string name="item_cita_time">A las %1$s</string>
     <string name="label_mis_citas">Mis citas médicas</string>
     <string name="press_back_again">Presione una vez mas para salir</string>
+    <string name="dialog_exit_title">¿Estás seguro que deseas salir?</string>
+    <string name="dialog_create_cita_exit_messaje">Si abandonas el registro, los datos que habias ingresado se perderán.</string>
+    <string name="dialog_cita_exit_positive_btn">Si, salir</string>
+    <string name="dialog_cita_exit_negative_btn">Continuar registro</string>
+    <string name="validate_cita_description">La descripción es demasiado corta</string>
 </resources>
