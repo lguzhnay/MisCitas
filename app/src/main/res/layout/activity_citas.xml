@@ -6,7 +6,8 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     android:background="@drawable/bg_gradient"
-    tools:context=".CitasActivity">
+    android:animateLayoutChanges="true"
+    tools:context=".ui.CitasActivity">
 
     <TextView
         android:layout_marginTop="12dp"

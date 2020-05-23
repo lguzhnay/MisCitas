@@ -1,4 +1,4 @@
-package com.guzhnaycorp.miscitas
+package com.guzhnaycorp.miscitas.util
 
 import android.content.Context
 import android.content.SharedPreferences

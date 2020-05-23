@@ -39,4 +39,17 @@
     <string name="dialog_cita_exit_positive_btn">Si, salir</string>
     <string name="dialog_cita_exit_negative_btn">Continuar registro</string>
     <string name="validate_cita_description">La descripción es demasiado corta</string>
+    <string name="label_scheduled_time">Hora de la cita</string>
+    <string name="label_confirm_cita">Datos de la cita</string>
+    <string name="validate_cita_fecha">Es necesario seleccionar una fecha</string>
+    <string name="validate_cita_hora">Es necesario definir una hora para la cita</string>
+    <string name="error_loading_specialty">Ocurrió un problema al cargar las especialidades</string>
+    <string name="error_loading_doctors">Ocurrio un problema al cargar los médicos</string>
+    <string name="error_loading_hours">No se ha podido cargar las horas</string>
+    <string name="label_select_doctor_and_date">Seleccione un médico y una fecha, para ver sus horas disponibles.</string>
+    <string name="label_horas_no_disponible">Lo sentimos! No se encontraron horas disponibles para el médico</string>
+    <string name="error_login_response">Se obtuvo una respuesta inesperada del servidor</string>
+    <string name="error_invalid_credentials">Las credenciales son incorrectas</string>
+    <string name="error_empty_credentials">Por favor ingrese un correo y contraseña</string>
+    <string name="item_cita_created_at">Esta cita se registró el día %1$s con la siguiente descripción:</string>
 </resources>
